@@ -3,7 +3,7 @@ $(document).ready(function(){
 	
 	$('#button_benzin').click(function(){
 		$('#dizel').addClass('invisible');	
-		$('#hibrid')addClass('invisible');
+		$('#hibrid').addClass('invisible');
 		$('#elektromos').addClass('invisible');
 		$('#sum').addClass('invisible');
 		$('#benzin').removeClass('invisible');

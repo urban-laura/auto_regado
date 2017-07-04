@@ -27,7 +27,7 @@
 <input type='hidden' name='fuel' id='fuel' value='###fuel###'>
 
 <!-- Benzin -->
-<table class='center' id='benzin'>
+<table class='center ###visibility-benzin-class###' id='benzin'>
 <tr>
 <td colspan='2' class='fuel'>Benzin</td>
 <tr>
@@ -78,7 +78,7 @@
 </table>
 
 <!-- Dízel -->
-<table class='center' id='dizel'>
+<table class='center ###visibility-dizel-class###' id='dizel'>
 <tr>
 <td colspan='2' class='fuel'>Dízel</td>
 <tr>
@@ -126,7 +126,7 @@
 
 
 <!-- Hibrid -->
-<table class='center' id='hibrid'>
+<table class='center ###visibility-hibrid-class###' id='hibrid'>
 <tr>
 <td colspan='2' class='fuel'>Hibrid</td>
 <tr>
@@ -152,7 +152,7 @@
 
 
 <!-- Elektromos --> 
-<table class='center' id='elektromos'>
+<table class='center ###visibility-elektromos-class###' id='elektromos'>
 <tr>
 <td colspan='2' class='fuel'>Elektromos</td>
 <tr>
