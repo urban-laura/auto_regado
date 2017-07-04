@@ -22,8 +22,11 @@ include('includes/form-select-barrel-d.php');
 include('includes/form-select-year-h.php');
 include('includes/form-select-month-h.php');
 
+include('includes/sum-visibility.php');
 
 include('includes/calc.php');
+
+include('includes/sum.php');
 
 include('includes/error.php');
 

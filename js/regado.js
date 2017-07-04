@@ -61,6 +61,7 @@ $(document).ready(function(){
 		$('#fuel').val('elektromos');
 	})
 
+
 	
 	/*
 		if($('#fuel').val() == 'benzin')

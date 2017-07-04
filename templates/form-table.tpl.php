@@ -15,10 +15,10 @@
 
 <table class='button'>
 <tr>
-<td><input type='button' id='button_benzin' class='###button-benzin-active-class###' value='Benzin'></td> 
-<td><input type='button' id='button_dizel' class='###button-dizel-active-class###' value='Dízel'></td> 
-<td><input type='button' id='button_hibrid' class='###button-hibrid-active-class###' value='Hibrid'></td> 
-<td><input type='button' id='button_elektromos' class='###button-elektromos-active-class###' value='Elektromos'></td> 
+<td><input type='button' id='button_benzin' class='buttons ###button-benzin-active-class###' value='Benzin'></td> 
+<td><input type='button' id='button_dizel' class='buttons ###button-dizel-active-class###' value='Dízel'></td> 
+<td><input type='button' id='button_hibrid' class='buttons ###button-hibrid-active-class###' value='Hibrid'></td> 
+<td><input type='button' id='button_elektromos' class='buttons ###button-elektromos-active-class###' value='Elektromos'></td> 
 </tr>
 </table>
 
@@ -172,8 +172,23 @@
 </tr>
 </table>
 
-
 </form>
+
+<table id='sum' class='###sum-visibility###'>	
+<tr>
+<td class='month'>###month-message###</td>
+</tr>
+
+<tr>
+<td>###sum-message###</td>
+</tr>
+</table>
+
+<table class='zero'>
+<tr>
+<td></td>
+</tr>
+</table>
 
 
 </body>
