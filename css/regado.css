@@ -101,6 +101,11 @@
 	padding-bottom : 10px;
 }
 
+.invisible
+{
+	display : none;
+}
+
 #dizel
 {
 	display : none;
