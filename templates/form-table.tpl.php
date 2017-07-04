@@ -15,10 +15,10 @@
 
 <table class='button'>
 <tr>
-<td><input type='button' id='button_benzin' class='active' value='Benzin'></td> 
-<td><input type='button' id='button_dizel' value='Dízel'></td> 
-<td><input type='button' id='button_hibrid' value='Hibrid'></td> 
-<td><input type='button' id='button_elektromos' value='Elektromos'></td> 
+<td><input type='button' id='button_benzin' class='###button-benzin-active-class###' value='Benzin'></td> 
+<td><input type='button' id='button_dizel' class='###button-dizel-active-class###' value='Dízel'></td> 
+<td><input type='button' id='button_hibrid' class='###button-hibrid-active-class###' value='Hibrid'></td> 
+<td><input type='button' id='button_elektromos' class='###button-elektromos-active-class###' value='Elektromos'></td> 
 </tr>
 </table>
 
