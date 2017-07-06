@@ -13,14 +13,12 @@
 </tr>
 </table>
 
-<table class='button'>
-<tr>
-<td><input type='button' id='button_benzin' class='buttons ###button-benzin-active-class###' value='Benzin'></td> 
-<td><input type='button' id='button_dizel' class='buttons ###button-dizel-active-class###' value='Dízel'></td> 
-<td><input type='button' id='button_hibrid' class='buttons ###button-hibrid-active-class###' value='Hibrid'></td> 
-<td><input type='button' id='button_elektromos' class='buttons ###button-elektromos-active-class###' value='Elektromos'></td> 
-</tr>
-</table>
+<div class='buttons-wrapper'>
+	<div class='button-wrapper'><input type='button' id='button_benzin' class='button ###button-benzin-active-class###' value='Benzin'></div>
+	<div class='button-wrapper'><input type='button' id='button_dizel' class='button ###button-dizel-active-class###' value='Dízel'></div>
+	<div class='button-wrapper'><input type='button' id='button_hibrid' class='button ###button-hibrid-active-class###' value='Hibrid'></div>
+	<div class='button-wrapper'><input type='button' id='button_elektromos' class='button ###button-elektromos-active-class###' value='Elektromos'></div>
+</div>
 
 <form name='calculator' method='post' class='calc-form'>
 

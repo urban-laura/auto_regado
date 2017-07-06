@@ -16,18 +16,21 @@
 	color : white;
 }
 
-.button
-{
+.buttons-wrapper {
 	background-color : #EEEEEE;
 	color: #01224a;
 	width : 420px;
-	padding : 15px; 
-	padding-left : 20px;
+	overflow: hidden;
 }
 
-.buttons
-{
+.button-wrapper {
+	padding: 8px 10px;
+	float: left;
+}
+
+.button {
 	width : 85px;
+	background: #00b0e5;
 }
 
 .center
@@ -38,6 +41,7 @@
 	width : 420px;
 	padding : 15px; 
 	padding-top : 0;
+	clear: both;
 }
 
 .fuel
@@ -97,7 +101,7 @@
 
 .active
 {
-	background-color : red;
+	background-color : orange;
 }
 
 .month
