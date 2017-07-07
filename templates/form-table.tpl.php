@@ -89,7 +89,7 @@
 <h3>###error###</h3>
 </div>
 
-<h3>Hengerűrtartalom </h3>
+<h3>Hengerűrtartalom:</h3>
 <select name='barrel_d' class='stb'>
 	###barrel-d-options###
 </select>
