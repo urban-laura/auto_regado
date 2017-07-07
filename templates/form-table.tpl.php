@@ -95,7 +95,6 @@
 </select>
 
 <h3>Környezetvédelmi osztály:</h3>
-<td colspan='2'>
 <select name='env_d' class='stb'>
 	###env-d-options###
 </select>
@@ -157,4 +156,5 @@
 
 </div>
 
+</div>
 </body>
