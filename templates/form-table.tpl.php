@@ -7,11 +7,11 @@
 </head>
 
 <body>
-<table class='title'>
-<tr>
-<td>Személyautó regisztrációs adó</td>
-</tr>
-</table>
+<div class='frame'>
+
+<div class='title'>
+<h1>Személyautó regisztrációs adó</h1>
+</div>
 
 <div class='buttons-wrapper'>
 	<div class='button-wrapper'><input type='button' id='button_benzin' class='button ###button-benzin-active-class###' value='Benzin'></div>
@@ -25,168 +25,136 @@
 <input type='hidden' name='fuel' id='fuel' value='###fuel###'>
 
 <!-- Benzin -->
-<table class='center ###visibility-benzin-class###' id='benzin'>
-<tr>
-<td colspan='2' class='fuel'>Benzin</td>
-<tr>
+<div class='center ###visibility-benzin-class###' id='benzin'>
 
-<tr>
-<td colspan='2' class='text'>Az első forgalomba helyezés dátuma: </td>
-<tr>
+<h2>Benzin</h2>
 
-<tr>
-<td>Év: 
+<h3>Az első forgalomba helyezés dátuma: </h3>
+
+<div class='year_div'>
+<h4>Év:
 <select name='c_year_b' class='date'>
 	###year-b-options###
 </select>
-</td>
+</h4> 
+</div>
 
-<td>Hónap:
+<div class='month_div'>
+<h4>Hónap:
 <select name='c_month_b' class='date'>
 	###month-b-options###
 </select>
-</td>
-</tr>
+</h4>
+</div>
 
-<tr id='error'>
-<td colspan='2'>###error###</td>
-</tr>
+<div id='error_b' class='error'>
+<h3>###error###</h3>
+</div>
 
-<tr class='text'>
-<td colspan='2' class='padding-top'>Hengerűrtartalom </td>
-</tr>
-<tr>
-<td colspan='2'>
+<h3>Hengerűrtartalom:</h3> 
 <select name='barrel_b' class='stb'>
 	###barrel-b-options###
 </select>
-</td>
-</tr>
 
-<tr class='text'>
-<td colspan='2' class='padding-top'>Környezetvédelmi osztály:</td>
-</tr>
-<tr>
-<td colspan='2'>
+<h3>Környezetvédelmi osztály:</h3>
 <select name='env_b' class='stb'>
 	###env-b-options###
 </select>
-</td>
-</tr>
-</table>
+</div>
 
 <!-- Dízel -->
-<table class='center ###visibility-dizel-class###' id='dizel'>
-<tr>
-<td colspan='2' class='fuel'>Dízel</td>
-<tr>
+<div class='center ###visibility-dizel-class###' id='dizel'>
 
-<tr>
-<td colspan='2' class='text'>Az első forgalomba helyezés dátuma: </td>
-<tr>
+<h2>Dízel</h2>
 
-<tr>
-<td>Év: 
+<h3>Az első forgalomba helyezés dátuma: </h3>
+
+<div class='year_div'>
+<h4>Év: 
 <select name='c_year_d' class='date'>
 	###year-d-options###
 </select>
-</td>
+</h4>
+</div>
 
-<td>Hónap:
+<div class='month_div'>
+<h4>Hónap:
 <select name='c_month_d' class='date'>
 	###month-d-options###
 </select>
-</td>
-</tr>
+</h4>
+</div>
 
-<tr class='text'>
-<td colspan='2' class='padding-top'>Hengerűrtartalom </td>
-</tr>
-<tr>
-<td colspan='2'>
+<div id='error_d' class='error'>
+<h3>###error###</h3>
+</div>
+
+<h3>Hengerűrtartalom </h3>
 <select name='barrel_d' class='stb'>
 	###barrel-d-options###
 </select>
-</td>
-</tr>
 
-<tr class='text'>
-<td colspan='2' class='padding-top'>Környezetvédelmi osztály:</td>
-</tr>
-<tr>
+<h3>Környezetvédelmi osztály:</h3>
 <td colspan='2'>
 <select name='env_d' class='stb'>
 	###env-d-options###
 </select>
-</td>
-</tr>
-</table>
+</div>
 
 
 <!-- Hibrid -->
-<table class='center ###visibility-hibrid-class###' id='hibrid'>
-<tr>
-<td colspan='2' class='fuel'>Hibrid</td>
-<tr>
+<div class='center ###visibility-hibrid-class###' id='hibrid'>
 
-<tr>
-<td colspan='2' class='text'>Az első forgalomba helyezés dátuma: </td>
-<tr>
+<h2>Hibrid</h2>
 
-<tr>
-<td>Év: 
+<h3>Az első forgalomba helyezés dátuma: </h3>
+
+<div class='year_div'>
+<h4>Év: 
 <select name='c_year_h' class='date'>
 	###year-h-options###
 </select>
-</td>
+</h4>
+</div>
 
-<td>Hónap:
+<div class='month_div'>
+<h4>Hónap:
 <select name='c_month_h' class='date'>
 	###month-h-options###
 </select>
-</td>
-</tr>
-</table>
+</h4>
+</div>
+
+<div id='error_h' class='error'>
+<h3>###error###</h3>
+</div>
+
+</div>
 
 
 <!-- Elektromos --> 
-<table class='center ###visibility-elektromos-class###' id='elektromos'>
-<tr>
-<td colspan='2' class='fuel'>Elektromos</td>
-<tr>
+<div class='center ###visibility-elektromos-class###' id='elektromos'>
 
-<tr>
-<td class='el'>A regisztrációs adó: 0 Ft</td>
-</tr>
+<h2>Elektromos</h2>
 
-<tr>
-<td class='el'>A környezetkímélő járművek után nem kell regisztrációs adót fizetni.</td>
-</tr>
+<h5>A regisztrációs adó: 0 Ft</h5>
 
-<table class='submit'>
+<h5>A környezetkímélő járművek után nem kell regisztrációs adót fizetni.</h5>
+</div>
+
+<div class='submit'>
 <input type='hidden' value='submitted' name='submitted'>
-<tr>
-<td><input type='submit' id='submit' value='Számol' class='form-submit'></td>
-</tr>
-</table>
+<input type='submit' id='submit' value='Számol' class='form-submit'>
+</div>
 
 </form>
 
-<table id='sum' class='###sum-visibility###'>	
-<tr>
-<td class='month'>###month-message###</td>
-</tr>
+<div id='sum' class='###sum-visibility###'>	
+<h5>###month-message###</h5>
 
-<tr>
-<td>###sum-message###</td>
-</tr>
-</table>
+<h4>###sum-message###</h4>
+</div>
 
-<table class='zero'>
-<tr>
-<td></td>
-</tr>
-</table>
-
+</div>
 
 </body>

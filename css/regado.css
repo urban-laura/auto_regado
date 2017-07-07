@@ -1,3 +1,13 @@
+.frame
+{
+	width : 420px;
+	font-family : Verdana;
+	background-color : #EEEEEE;
+	border-radius : 5px 5px 5px 5px;
+	color: #01224a;
+	padding-bottom : 5px;
+}
+
 .calc-form
 {
 	margin : 0;
@@ -6,54 +16,95 @@
 .title
 {
 	background-color : #005398;
-	font-family : Verdana;
-	width : 420px;
 	height : 50px; 
 	border-radius : 5px 5px 0px 0px; 
-	text-align : center;
+	text-align : center;	
+}
+
+.title h1
+{
 	font-weight: bold; 
 	font-size : 20px;
 	color : white;
+	margin : 0;
+	padding-top : 12px;
 }
 
-.buttons-wrapper {
-	background-color : #EEEEEE;
+.buttons-wrapper 
+{
 	color: #01224a;
-	width : 420px;
 	overflow: hidden;
+	padding-left : 6px;
 }
 
-.button-wrapper {
-	padding: 8px 10px;
+.button-wrapper 
+{
+	padding: 8px 6px;
 	float: left;
 }
 
-.button {
-	width : 85px;
-	background: #00b0e5;
+.button 
+{
+	width : 90px;
+	height : 25px;
+	background : #005398;
+	border-radius : 3px;
+	border : solid 1px #01224a;
+	color : white;
+	font-weight : bold; 
+}
+
+.button:hover
+{
+	background-color : #0882E8;
 }
 
 .center
 {
-	background-color : #EEEEEE;
-	color: #01224a;
-	font-family : Verdana;
-	width : 420px;
 	padding : 15px; 
 	padding-top : 0;
-	clear: both;
 }
 
-.fuel
+.center h2
 {
-	font-weight: bold;
 	text-align : center; 
-	padding-bottom : 10px;
+	padding-top : 10px;
+	margin : 0;
+	font-size : 18px;
 }
 
-.text
+.center h3
 {
-	font-weight: bold;
+	font-size : 16px;
+	margin : 0;
+	margin-top : 15px;
+}
+
+.center h4
+{
+	font-weight : normal;
+	width : 150px;
+	margin-top : 10px;
+	margin-bottom : 0;
+}
+
+.center h5
+{
+	font-weight : normal;
+	margin-top : 10px;
+	margin-bottom : 0;
+	font-size : 16px;
+	text-align : center;
+}
+
+.year_div
+{
+	float : left;
+}
+
+.month_div
+{
+	margin-left : 168px;
 }
 
 .date
@@ -61,21 +112,13 @@
 	width : 70px;
 }
 
-.padding-top
-{
-	padding-top : 15px;
-}
-
 .stb
 {
-	width : 161px;
+	width : 168px;
 }
 
 .submit
 {
-	background-color : #EEEEEE;
-	color: #01224a;
-	font-family : Verdana;
 	width : 420px;
 	text-align : center;
 }
@@ -86,28 +129,9 @@
 	height : 30px;
 }
 
-.zero
-{
-	background-color : #EEEEEE; 
-	color: #01224a;
-	width : 420px; 
-	border-radius : 0px 0px 5px 5px;
-}
-
-.el
-{
-	text-align : center;
-}
-
 .active
 {
 	background-color : orange;
-}
-
-.month
-{
-	font-size : 14px;
-	padding-bottom : 10px;
 }
 
 .invisible
@@ -117,16 +141,33 @@
 
 #sum
 {
-	background-color : #EEEEEE; 
-	color: #01224a; 
-	font-family : Verdana; 
 	width : 420px; 
 	padding-top : 10px; 
 	text-align : center;
 }
 
-#error
+#sum h4
+{
+	font-weight : normal;
+	font-size : 16px;
+	margin : 10px;
+}
+
+#sum h5
+{
+	font-weight : normal;
+	font-size : 14px;
+	margin : 0;
+}
+
+.error
 {
 	color: red;
 	text-align : center;
+}
+
+.error h3
+{
+	font-weight : normal;
+	margin-top : 5px;
 }

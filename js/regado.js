@@ -5,6 +5,9 @@ $(document).ready(function(){
 		$('#dizel').addClass('invisible');	
 		$('#hibrid').addClass('invisible');
 		$('#elektromos').addClass('invisible');
+		$('#error_b').addClass('invisible');
+		$('#error_d').addClass('invisible');
+		$('#error_h').addClass('invisible');
 		$('#sum').addClass('invisible');
 		$('#benzin').removeClass('invisible');
 		$('#submit').removeClass('invisible');
@@ -20,6 +23,9 @@ $(document).ready(function(){
 		$('#benzin').addClass('invisible');	
 		$('#hibrid').addClass('invisible');
 		$('#elektromos').addClass('invisible');
+		$('#error_b').addClass('invisible');
+		$('#error_d').addClass('invisible');
+		$('#error_h').addClass('invisible');
 		$('#sum').addClass('invisible');
 		$('#dizel').removeClass('invisible');
 		$('#submit').removeClass('invisible');
@@ -35,6 +41,9 @@ $(document).ready(function(){
 		$('#benzin').addClass('invisible');
 		$('#dizel').addClass('invisible');	
 		$('#elektromos').addClass('invisible');
+		$('#error_b').addClass('invisible');
+		$('#error_d').addClass('invisible');
+		$('#error_h').addClass('invisible');
 		$('#sum').addClass('invisible');
 		$('#hibrid').removeClass('invisible');
 		$('#submit').removeClass('invisible');
