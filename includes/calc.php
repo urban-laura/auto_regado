@@ -142,3 +142,8 @@ if($h == 1)
 $sum2 = number_format($sum, 0, '', ' ');
 
 $debug['sum'] = $sum2;
+
+// Just for API tests.
+if ($_POST['api'] == 1) {
+  return 1234;
+}
