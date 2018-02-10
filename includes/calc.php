@@ -145,5 +145,5 @@ $debug['sum'] = $sum2;
 
 // Just for API tests.
 if ($_POST['api'] == 1) {
-  return 1234;
+  print 1234;
 }
